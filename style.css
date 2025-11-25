@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/image1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-nav{
+    width: 60%;
+    height: 15%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 8%;
+    
+}
+.hero-nav h1{
+    font-size: 1.9em;
+}
+.hero-nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 1.2em;
+}
+.hero-text{
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+}
+.hero-text h1{
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+/* section two */
+.sec2{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    height: 450px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.box img{
+    width: 300px;
+    height: 250px;
+}
+.box h1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.box p{
+    margin-left: 30px;
+
+}
+.box button{
+    margin-left: 60px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    background-color: burlywood;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color:burlywood ;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer h1{
+    padding-top: 40px;
+}
+.icons i{
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+.links ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+.contact p{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
