@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/About\ Us\ img\ design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-nav{
+    width: 60%;
+    height: 15%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 8%;
+    
+}
+.hero-nav h1{
+    font-size: 1.9em;
+}
+.hero-nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 1.2em;
+}
+.hero-text{
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+}
+.hero-text h1{
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+/* section 2 */
+
+.center{
+    display: flex;
+  margin-top: 120px;
+  margin-left: 80px;
+
+}
+.l-cntr{
+    width: 20%;
+}
+.l-cntr img{
+  width: 120%;
+  height: 350px;
+  margin: 40px;
+  border-radius: 20px;
+  /* margin-top: 90px; */
+}
+
+.r-cntr{
+ width: 30%;
+ margin-left: 190px;
+ margin-top: 50px;
+}
+
+.r-cntr #about{
+    font-size: 1.3em;
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+    padding-left: 2px;
+    padding-bottom: 4px;
+}
+
+.r-cntr h2{
+    font-size: 2em;
+    padding-right:100px;
+    padding-bottom: 10px;
+}
+
+.r-cntr p{
+    font-size: 0.7em;
+    padding-left: 2px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+.r-cntr button{
+    margin-left: -10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.5em;
+    background-color: burlywood;
+}
+
+/* section 3 */
+
+.parent{
+    display: flex;
+    margin-left: 60px;
+}
+
+.l-prent{
+    width: 30%;
+    margin: 30px;
+}
+
+.l-prent h3{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.l-prent p{
+    /* padding-left: 5px; */
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.wdth{
+    
+    margin-top: 20px;
+}
+
+.wdth span{
+   font-size: 1.2em;
+ font-weight: lighter; 
+ padding-left:290px ;
+}
+ 
+span{
+    padding-top: -20px;
+}
+.wdth p{
+ font-size: 1.2em;
+ font-weight: bold;
+}
+
+.l-prent .mrktng{
+    width: 80%;
+    height: 4px;
+    background-color:burlywood;
+}
+
+.l-prent .mrtkng2{
+    width: 30%;
+    height: 4px;
+    background-color: gray; 
+    margin-left: 280px;
+    margin-top: -4px;
+    margin-bottom: 50px;
+}
+
+.l-prent .prducts{
+   width: 80%;
+    height: 4px;
+    background-color: burlywood;
+      
+
+}
+
+.l-prent .prducts2{
+       width: 50%;
+    height: 4px;
+    background-color: gray; 
+    margin-left: 280px;
+    margin-top: -4px;
+    margin-bottom: 50px; 
+}
+
+.l-prent .delivery{
+   width: 80%;
+    height: 4px;
+    background-color: burlywood;  
+}
+
+.l-prent .delivery2{
+    width: 30%;
+    height: 4px;
+    background-color: gray; 
+    margin-left: 280px;
+    margin-top: -4px;
+    margin-bottom: 50px;  
+}
+
+.r-prent{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 30px;
+     width: 30%;
+    margin-left: 190px;
+    margin-top: 200px;
+    
+}
+
+.r-prent{
+    display: grid;
+grid-template-columns: auto auto;
+
+}
+
+.numandp1 h3{
+ color: burlywood;
+ font-size: 2em;
+ padding-bottom: 10px;
+}
+
+.numandp1 p{
+    padding-bottom: 160px;
+}
+
+.numandp2 h3{
+ color: burlywood;
+ font-size: 2em;
+ padding-bottom: 10px;
+}
+
+.numandp2 p{
+    padding-bottom: 40px;
+}
+
+.numandp3 h3{
+ color: burlywood;
+ font-size: 2em;
+ padding-bottom: 10px;
+}
+
+.numandp3 #nmbr3{
+    padding-bottom: 40px;
+}
+
+.numandp4 h3{
+ color: burlywood;
+ font-size: 2em;
+ padding-bottom: 10px;
+}
+
+.numandp4 p{
+    padding-bottom: 40px;
+}
+
+/* section-4 */
+
+.main{
+   width: 60%;
+   height: 400px;
+   margin: 30px;
+   margin-left: 240px;
+   border-radius: 40px;
+   background-image: url(/4607cfbee19bc74b75bfa1cafab31241.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 70px;
+}
+
+.main p{
+    text-align: center;
+    padding-top:120px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.main h3{
+    text-align: center;
+  font-size: 2em;
+  padding-left: 190px;
+  padding-right: 190px;
+  color:rgb(43, 43, 43);
+  font-weight: bolder;
+}
+
+/* section-5 */
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color:burlywood ;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer h1{
+    padding-top: 40px;
+}
+.icons i{
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+.links ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+.contact p{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+
+
+
+
